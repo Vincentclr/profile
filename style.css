@@ -1,0 +1,114 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #F7F9FC;
+  color: #57737A;
+  font-size: 17px;
+  line-height: normal;
+}
+
+img{
+  width:100px;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  color: #57737A;
+  font-size: 60px;
+  line-height: 50px;
+  text-align: center;
+}
+
+h2.title {
+  font-weight:100;
+  color: #85BDBF;
+  font-size: 40px;
+  line-height: 30px;
+}
+
+a{
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+}
+.logo a {
+  color: #85BDBF;
+  font-size: 40px;
+}
+
+p{
+  text-align: center;
+  font-size: 30px;
+}
+
+.footer{
+  text-align: center;
+}
+.logo{
+  display: inline-block;
+  color: #57737A;
+  font-size: 25px;
+  list-style: none;
+}
+
+.footer{
+  text-align: center;
+}
+
+.banner{
+  text-align: center;
+}
+
+.footer ul{
+  padding: 0;
+}
+
+.footer a.button{
+  color: #57737A;
+}
+
+.button{
+  font-size: 40px;
+}
+
+a.button:hover {
+    color: #85BDBF;
+}
+
+.img-circle {
+    border-radius: 50%;
+    box-shadow: 0px 10px 30px rgba(0,0,0,2);
+}
+
+.card{
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+ }
+
+ @media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
